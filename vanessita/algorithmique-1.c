@@ -20,7 +20,7 @@ void main(int argc, char** argv)
 {
     int SIZE = 10;      // Le paramètre de l'algorithme : 10 dans l'exemple de l'énoncé
     if (argc>=2) {
-        SIZE = atoi(argv[1]);
+        SIZE = atoi(argv[1]);   // Le paramètre peut etre choisi dans la ligne de commande
     }    
     int tableau[SIZE];  // là ou on store le resultat
 
