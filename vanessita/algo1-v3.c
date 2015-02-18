@@ -18,7 +18,7 @@ void afficher_tableau(int tableau[], int SIZE) {
 
 int main(int argc, char** argv)
 {
-    int MAX;;      // Le paramètre de l'algorithme : 10 dans l'exemple de l'énoncé
+    int MAX;;      // Le paramètre de l'algorithme : 20 dans l'exemple de l'énoncé
     
     printf("Quel doit etre la valeur maximale du tableau? : "); 
     scanf("%d", &MAX);
