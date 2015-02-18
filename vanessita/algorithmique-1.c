@@ -4,16 +4,24 @@
 
 void afficher_tableau(int tableau[], int SIZE) {
     int j; //index
+    printf("Result: {");
     for (j = 0; j < SIZE; j++ )
    {
-      printf("tableau[%d] = %d\n", j, tableau[j] );
+      if (j==SIZE-1){
+       printf("%d}\n", tableau[j]);
+      } else {
+        printf("%d, ", tableau[j] );
+      }
    }
 }
 
 
-void main()
+void main(int argc, char** argv)
 {
-    int SIZE = 30;      // Le paramètre de l'algorithme : 10 dans l'exemple de l'énoncé
+    int SIZE = 10;      // Le paramètre de l'algorithme : 10 dans l'exemple de l'énoncé
+    if (argc>=2) {
+        SIZE = atoi(argv[1]);
+    }    
     int tableau[SIZE];  // là ou on store le resultat
 
     int j; //index
