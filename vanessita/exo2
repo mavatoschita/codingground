@@ -1,13 +1,13 @@
-void afficheTab (int tableau[], int Taille) {
-    int i; //index
+void afficheTab (float tableau[], int Taille) {
+   int i; //index
     for (i = 0; i < Taille; i++ )
    {
-      printf("tableau[%d] = %d\n", i, tableau[i] );
+      printf("tableau[%d] = %1.2f%%\n", i, tableau[i] );
    }
 }
 void solution_1() {
     int Taille=7;
-    int tableau[Taille];
+    float tableau[Taille];
     int j; //index
 
     tableau[0] = 180.19;
