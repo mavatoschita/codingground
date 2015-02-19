@@ -10,8 +10,8 @@ function somme(tableau) {
    somme = 0; // initialisation
    
    // boucle
-   for (var i = 0 ; i < factures.length ; i++) {
-     somme = somme + factures[i];
+   for (var i = 0 ; i < tableau.length ; i++) {
+     somme = somme + tableau[i];
    }
    
    return somme; // resultat
