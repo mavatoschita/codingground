@@ -6,6 +6,16 @@ function filtrer_factures(tableau1, tableau2) {
    console.dir(tableau2);
 }
 
+function somme(tableau) {
+   somme = 0; // initialisation
+   
+   // boucle
+   for (var i = 0 ; i < factures.length ; i++) {
+     somme = somme + factures[i];
+   }
+   
+   return somme; // resultat
+}
 
 
 
