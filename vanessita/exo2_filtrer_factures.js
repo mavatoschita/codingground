@@ -1,9 +1,27 @@
 factures = [180.19, 167.65, 59.14, 171.00, 553.00, 72.44, 221.13]
 payees = [true, true, true, false, true, false, true]
 
-function filtrer_factures(tableau1, tableau2) {
-   console.dir(tableau1);
-   console.dir(tableau2);
+// utilisation : 
+// filtrer_factures(factures, payees)
+
+function filtrer_factures(tableau_factures, tableau_paiments) {
+   // console.dir(tableau1); // pour afficher le contenu
+   // console.dir(tableau2);
+   
+  result=[]; // initialisation : tableau à zero elements
+  
+  for (var i = 0 ; i < tableau_factures.length ; i++) {
+     var value;
+     // ici utiliser 
+     // tableau_factures[i]
+     // tableau_paiements[i]
+     
+     // pour l'instant on va juste toujours rajouter 7 au tableau résultat
+     value = 7;
+     result[result.length] = 7;
+   }
+   
+   return result;
 }
 
 function somme(tableau) {
@@ -16,7 +34,6 @@ function somme(tableau) {
    
    return somme; // resultat
 }
-
 
 
 /****  algorithme en francais
