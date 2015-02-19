@@ -17,7 +17,6 @@ function filtrer_factures(tableau_factures, tableau_paiments) {
      // tableau_paiements[i]
      
      // pour l'instant on va juste toujours rajouter 7 au tableau résultat
-     value = 7;
      result[result.length] = 7;
    }
    
