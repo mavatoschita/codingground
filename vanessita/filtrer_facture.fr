@@ -1,0 +1,16 @@
+Algorithme filtrer_facture
+  Paramètres :
+    Factures, un tableau de n éléments (n quelconque)
+    Payees, un tableau de n booléns (même taille que Factures)
+  Retourne
+   Un tableau de factures
+   
+  Corps de l'algorithme 
+    result = tableau vide    // initialisation
+    
+    // boucle
+    pour index de 1 à n
+           si payees[i] est faux  // filtre
+               ajouter factures[i] à result
+    
+    retourner result 
