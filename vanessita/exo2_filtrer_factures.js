@@ -1,5 +1,6 @@
 factures = [180.19, 167.65, 59.14, 171.00, 553.00, 72.44, 221.13]
-payees = [true, true, true, false, true, false, true]
+//payees = [true, true, true, false, true, false, true] // WRONG
+payees = [false, true, true, false, true, false, false]
 
 // utilisation : 
 // filtrer_factures(factures, payees)
@@ -12,12 +13,9 @@ function filtrer_factures(tableau_factures, tableau_paiments) {
   
   for (var i = 0 ; i < tableau_factures.length ; i++) {
      var value;
-     // ici utiliser 
-     // tableau_factures[i]
-     // tableau_paiements[i]
-     
-     // pour l'instant on va juste toujours rajouter 7 au tableau résultat
-     result.push(7);
+     if (!tableau_paiments[i]) {
+         result.push(tableau_factures[i]);   
+     }
    }
    
    return result;
