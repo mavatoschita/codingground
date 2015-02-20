@@ -21,6 +21,9 @@ function filtrer_factures(tableau_factures, tableau_paiments) {
    return result;
 }
 
+// test
+filtrer_factures(factures, payees)
+
 function somme(tableau) {
    somme = 0; // initialisation
    
