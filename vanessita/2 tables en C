@@ -1,0 +1,36 @@
+#define vrai 1
+#define faux 0
+
+void afficheTab (float tableau[], int Taille) {
+   int i;
+   int j; //index
+    for (i = 0; i < Taille; i++ ){
+    for (j = 0; j < Taille; j++ )
+   {
+      printf("tableau[%d][%d] = %1.2f%\n", i,j, tableau[i][j] );
+         }
+}
+
+void remplirTab (int tableau[7][2];) 
+int main void 
+{
+    float tableau[7][2];
+    int j; //index
+
+    tableau[0] = 180.19, 0;
+    tableau[1] = 167.65, 1;
+    tableau[2] = 59.14, 1;
+    tableau[3] = 171.00, 0;
+    tableau[4] = 553.00, 1;
+    tableau[5] = 72.44, 0;
+    tableau[6] = 221.13, 0;
+    // ....
+    
+    rempliTab (tableau, [7][2]);
+}
+
+
+void main()
+{
+   solution_1();
+}
